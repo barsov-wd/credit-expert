@@ -1,0 +1,144 @@
+.partners {
+  padding-bottom: 140px;
+}
+
+.partners__title {
+  margin-bottom: 80px;
+}
+
+.partners__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1060px;
+  gap: 51px 80px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1600px) {
+  .partners {
+    padding-bottom: 100px;
+  }
+
+  .partners__title {
+    margin-bottom: 70px;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .partners__title {
+    margin-bottom: 65px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .partners__title {
+    margin-bottom: 60px;
+  }
+
+  .partners__wrapper {
+    gap: 45px 65px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .partners__wrapper {
+    gap: 41px 55px;
+    max-width: 864px;
+  }
+
+  .partners__image--1 {
+    width: 195px;
+  }
+
+  .partners__image--2 {
+    width: 137px;
+  }
+
+  .partners__image--3 {
+    width: 211px;
+  }
+
+  .partners__image--4 {
+    width: 123px;
+  }
+
+  .partners__image--5 {
+    width: 115px;
+  }
+
+  .partners__image--6 {
+    width: 89px;
+  }
+
+  .partners__image--7 {
+    width: 179px;
+  }
+
+  .partners__image--8 {
+    width: 102px;
+  }
+
+  .partners__image--9 {
+    width: 113px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .partners {
+    padding-bottom: 90px;
+  }
+
+  .partners__title {
+    margin-bottom: 55px;
+  }
+
+  .partners__wrapper {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 41px 79px;
+  }
+
+  .partners__image {
+    width: 163px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .partners {
+    padding-bottom: 80px;
+  }
+
+  .partners__title {
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .partners__title {
+    max-width: 335px;
+    margin: 0 auto 45px;
+  }
+
+  .partners__wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 0;
+  }
+
+  .partners__image {
+    margin-bottom: 40px;
+  }
+
+  .partners__image:last-child {
+    margin-bottom: 0;
+  }
+}

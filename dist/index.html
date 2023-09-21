@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Кредит наличными со ставкой от 3,9 %</title>
+</head>
+<body>
+
+<header class="header">
+    <div class="cont">
+        <div class="header__wrapper">
+            <img src="./img/logo.svg" alt="logo" class="header__logo">
+            <div class="header__text">
+                Необходимо гражданство РФ
+            </div>
+        </div>
+    </div>
+</header>
+
+<main>
+    <section id="calc" class="calc">
+    <div class="cont">
+        <h2 class="section-title calc__title">Кредит наличными со ставкой от 3,9 %</h2>
+
+        <div class="calc__cover">
+            <div class="calc__cover-title">
+                Выберите сумму и срок кредита
+            </div>
+            <div class="calc__cover-inner">
+                <div class="calc__content-left">
+                    <div class="calc__block">
+                        <p class="calc__block__title">Желаемая сумма кредита</p>
+                        <input value="1 500 000" type="text" class="calc__field calc__field--1">
+                        <span class="calc__field__text">₽</span>
+                        <img src="./img/field-icon.svg" alt="field-icon" class="calc__field-icon">
+                        <div class="calc__range-box">
+                            <div class="calc__range">
+                                <div class="calc__range-min-val">100 000 ₽</div>
+                                <span class="calc__range__track calc__range__track--1">
+                                    </span>
+                                <input class="calc__range__input calc__range__input--1" type="range" min="100000" max="5000000" value="1500000" step="1">
+                                <div class="calc__range-max-val">5 000 000 ₽</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="calc__block calc__block">
+                        <p class="calc__block__title">Срок кредита</p>
+                        <input value="5" type="text" class="calc__field calc__field--2">
+                        <span class="calc__field__text calc__field__text--year">лет</span>
+                        <img src="./img/field-icon.svg" alt="field-icon" class="calc__field-icon calc__field-icon--2">
+                        <div class="calc__result-box">
+                            <p class="calc__result-text calc__result-text--pay">
+                                Ежемесячный платёж
+                            </p>
+                            <div class="calc__result-title calc__result-title--res">
+                                8 300 ₽
+                            </div>
+                        </div>
+                        <div class="calc__range-box calc__range-box--2">
+                            <div class="calc__range">
+                                <div class="calc__range-min-val">1 год</div>
+                                <span class="calc__range__track calc__range__track--2">
+                                    </span>
+                                <input class="calc__range__input calc__range__input--2" type="range" min="1" max="10" value="5" step="1">
+                                <div class="calc__range-max-val">10 лет</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="calc__block-input-group">
+                        <select class="calc__select" name="" id="">
+                            <option class="calc__select-option" value="">Цель кредита*</option>
+                            <option class="calc__select-option" value="">Cанкт-Петербург</option>
+                            <option class="calc__select-option" value="">Ленинградская область</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="calc__content-right">
+                    <div class="calc__content-item">
+                        <div class="calc__content-title">
+                            Вероятность одобрения кредита
+                        </div>
+                        <div class="calc__content-percent">
+                            5%
+                        </div>
+                        <div class="calc__content-progress">
+                            <div class="calc-progress">
+                                <div class="calc-progress__fill"></div>
+                            </div>
+                        </div>
+                        <div class="calc__content-text">
+                            +50% за 1-й шаг
+                        </div>
+                    </div>
+                    <div class="calc__content-block">
+                        <div class="calc__content-block-text">
+                            Вы выбрали кредит на сумму
+                        </div>
+                        <div class="calc__content-block-title calc__content-block-title--sum">
+                            550 000 ₽
+                        </div>
+                        <div class="calc__content-block-text">
+                            Срок кредита
+                        </div>
+                        <div class="calc__content-block-title calc__content-block-title--period">
+                            5  <span class="calc__content-block-title calc__content-block-title--year">лет</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="calc__cover-title calc__cover-title--middle">Контактная информация</div>
+            <div class="calc__cover-inputs">
+                <div class="calc__cover-input-group calc__cover-input-group--1">
+                    <input type="text" class="calc__cover-input calc__cover-input--1" placeholder="Фамилия, имя и отчество*">
+                    <div class="calc__input-rectangle">
+                        +20% к одобрению
+                    </div>
+                    <div class="calc__input-rectangle-mobile">
+                        +20%
+                    </div>
+                </div>
+                <div class="calc__cover-input-group">
+                    <input type="text" class="calc__cover-input" placeholder="Мобильный телефон*">
+                </div>
+            </div>
+            <button class="button calc__cover-button">
+                Подать заявку
+            </button>
+            <div class="calc__cover-reviews">
+                Заполняя форму, я принимаю <a href="#" class="calc__cover-reviews">условия передачи информации</a>
+            </div>
+        </div>
+    </div>
+</section>
+ 
+    <section class="ease">
+    <div class="cont">
+        <h2 class="section-title ease__title">Потребительский кредит с легкостью</h2>
+
+        <div class="ease__items">
+            <div class="ease__item-white">
+                <img src="./img/ease/icon-1.svg" alt="icon-1" class="ease__item-icon">
+                <div class="ease__item-title">
+                    Быстро и онлайн
+                </div>
+                <p class="ease__item-descr">
+                    Переведем деньги на Вашу карту уже сегодня 
+                </p>
+            </div>
+            <div class="ease__item-white">
+                <img src="./img/ease/icon-2.svg" alt="icon-2" class="ease__item-icon">
+                <div class="ease__item-title">
+                    Без залога и поручителей
+                </div>
+                <p class="ease__item-descr">
+                    Для оформления нужен только паспорт. Подтверждение дохода не требуется
+                </p>
+            </div>
+            <div class="ease__item ease__item--green">
+                <img src="./img/ease/icon-3.svg" alt="icon-3" class="ease__item-icon">
+                <div class="ease__item-title ease__item-title--color">
+                    От 3,9 %
+                </div>
+                <p class="ease__item-descr ease__item-descr--color">
+                    Процентная ставка
+                </p>
+            </div>
+            <div class="ease__item ease__item--yellow">
+                <img src="./img/ease/icon-4.svg" alt="icon-4" class="ease__item-icon">
+                <div class="ease__item-title">
+                    До 5 000 000 ₽
+                </div>
+                <p class="ease__item-descr">
+                    Сумма кредита
+                </p>
+            </div>
+            <div class="ease__item ease__item--transparent">
+                <img src="./img/ease/icon-5.svg" alt="icon-5" class="ease__item-icon">
+                <div class="ease__item-title">
+                    До 5 лет
+                </div>
+                <p class="ease__item-descr">
+                    Срок договора
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <section class="features">
+    <div class="cont">
+        <h2 class="section-title features__title">Преимущества нашего кредита наличными </h2>
+
+        <div class="features__wrapper">
+           <img src="./img/features/features-image.png" alt="features-image" class="features__image">
+           <div class="features__content">
+                <div class="features__content-item">
+                    <div class="features__content-title">
+                        0 ₽ за обслуживание карты
+                    </div>
+                    <p class="features__content-descr">
+                        На время действия кредита
+                    </p>
+                </div>
+                <div class="features__content-item">
+                    <div class="features__content-title">
+                        Снятие наличных без комиссии
+                    </div>
+                    <p class="features__content-descr">
+                        От 3000 ₽ до суммы кредита в любом банкомате России
+                    </p>
+                </div>
+                <div class="features__content-item">
+                    <div class="features__content-title">
+                        До 90 дней до первого платежа
+                    </div>
+                    <p class="features__content-descr">
+                        Точную дату платежа можно узнать в приложении после активации кредита
+                    </p>
+                </div>
+           </div>
+        </div>
+        <div class="features__items">
+            <div class="features__item features__item--one">
+                <img src="./img/features/icon-1.svg" alt="icon-1" class="features__item-icon">
+                <div class="features__item-title">
+                    Кредит на любые цели
+                </div>
+                <p class="features__item-descr">
+                    Не требуем подтверждения целевого использования потребитльского кредита. Тратьте деньги как хотите
+                </p>
+            </div>
+            <div class="features__item features__item--two">
+                <img src="./img/features/icon-2.svg" alt="icon-2" class="features__item-icon">
+                <div class="features__item-title">
+                    Просто выплачивать
+                </div>
+                <p class="features__item-descr">
+                    Переводами с других карт, наличными в банкоматах 
+                </p>
+            </div>
+            <div class="features__item features__item--three">
+                <img src="./img/features/icon-3.svg" alt="icon-3" class="features__item-icon">
+                <div class="features__item-title">
+                    Удобно рассчитать
+                </div>
+                <p class="features__item-descr">
+                    Предварительные условия погашения кредита можно посмотреть в онлан-калькуляторе
+                </p>
+            </div>
+        </div>
+        <a href="#calc" class="button features__button">
+            Подать заявку
+        </a>
+    </div>
+</section>
+
+    <section class="partners">
+    <div class="cont">
+        <h2 class="section-title partners__title">Наши партнеры</h2>
+
+        <div class="partners__wrapper">
+            <img src="./img/partners/image-1.svg" alt="image-1" class="partners__image partners__image--1">
+            <img src="./img/partners/image-2.svg" alt="image-2" class="partners__image partners__image--2">
+            <img src="./img/partners/image-3.svg" alt="image-3" class="partners__image partners__image--3">
+            <img src="./img/partners/image-4.svg" alt="image-4" class="partners__image partners__image-4">
+            <img src="./img/partners/image-5.svg" alt="image-5" class="partners__image partners__image--5">
+            <img src="./img/partners/image-6.svg" alt="image-6" class="partners__image partners__image--6">
+            <img src="./img/partners/image-7.svg" alt="image-7" class="partners__image partners__image--7">
+            <img src="./img/partners/image-8.svg" alt="image-8" class="partners__image partners__image--8">
+            <img src="./img/partners/image-9.svg" alt="image-9" class="partners__image partners__image--9">
+        </div>
+    </div>
+</section>
+
+
+</main>
+
+<footer class="footer">
+    <div class="cont">
+        <div class="footer__wrapper">
+            <div class="wrap">
+                <img src="./img/logo.svg" alt="logo" class="footer__logo">
+                <div class="footer__worktime-mobile">
+                    <div class="footer__worktime-textbold">
+                        График работы:
+                    </div>
+                    <div class="footer__worktime-text">
+                        ПН - СБ   8:00 - 21:00
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer__content">
+                <div class="footer__content-text">
+                    ИНН 9714013989 ОГРН 1237700453869 <br>
+                    Юридический и фактический адрес: 125040, г. Москва, ул. Ямского Поля, д.5, стр. 1, пом. 1/2
+                </div>
+                <div class="footer__content-text">
+                    Не является публичной офертой. <br>
+                    Подбор кредитно-финансовых услуг, квалифицированная помощь юристов
+                </div>
+            </div>
+            <div class="footer__worktime">
+                <div class="footer__worktime-textbold">
+                    График работы:
+                </div>
+                <div class="footer__worktime-text">
+                    ПН - СБ   8:00 - 21:00
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<div class="modal modal-thanks">
+    <div class="modal__container">
+        <div class="modal-thanks__dialog">
+            <img class="modal-thanks__close" src="./img/close.svg">
+            <div class="modal-thanks__title">
+                Спасибо за заявку!
+            </div>
+            <div class="modal-thanks__text">
+                Наш специалист свяжется с Вами в ближайшее время
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="js/app.min.js"></script>
+
+</body>
+</html>

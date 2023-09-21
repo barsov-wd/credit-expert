@@ -1,0 +1,138 @@
+.form--row-1 .form__wrapper {
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+.form--row-2 .form__field {
+  width: calc(50% - 12.5px);
+}
+
+.form__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-column-gap: 25px;
+     -moz-column-gap: 25px;
+          column-gap: 25px;
+  row-gap: 15px;
+}
+
+.form__field {
+  width: 100%;
+}
+
+.form__input {
+  width: 100%;
+  height: 60px;
+  border: 1px solid rgba(99, 26, 172, 0.65);
+  border-radius: 10px;
+  padding: 16px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: Nunito, serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 120%;
+  color: #1C1817;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.form__input::-webkit-input-placeholder {
+  font-family: Nunito, serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 120%;
+  color: #C9C9C9;
+}
+
+.form__input::-moz-placeholder {
+  font-family: Nunito, serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 120%;
+  color: #C9C9C9;
+}
+
+.form__input:-ms-input-placeholder {
+  font-family: Nunito, serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 120%;
+  color: #C9C9C9;
+}
+
+.form__input::-ms-input-placeholder {
+  font-family: Nunito, serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 120%;
+  color: #C9C9C9;
+}
+
+.form__input::placeholder {
+  font-family: Nunito, serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 120%;
+  color: #C9C9C9;
+}
+
+.form__input:focus {
+  outline: none;
+  border: 1px solid rgb(99, 26, 172);
+}
+
+.form__submit {
+  width: 100%;
+  height: 60px;
+}
+
+@media screen and (max-width: 1024px) {
+  .form__input {
+    height: 50px;
+    padding: 14px;
+    font-size: 16px;
+  }
+
+  .form__input::-webkit-input-placeholder {
+    font-size: 16px;
+  }
+
+  .form__input::-moz-placeholder {
+    font-size: 16px;
+  }
+
+  .form__input:-ms-input-placeholder {
+    font-size: 16px;
+  }
+
+  .form__input::-ms-input-placeholder {
+    font-size: 16px;
+  }
+
+  .form__input::placeholder {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .form--row-1 .form__wrapper {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+
+  .form--row-2 .form__field {
+    width: 100%;
+  }
+
+  .form__wrapper {
+    row-gap: 10px;
+  }
+}

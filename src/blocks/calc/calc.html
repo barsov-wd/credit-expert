@@ -1,0 +1,113 @@
+<section id="calc" class="calc">
+    <div class="cont">
+        @@include('section-title/section-title.html', {sectionTitleClass: 'calc__title', sectionTitleText: 'Кредит наличными со ставкой от 3,9 %'})
+        <div class="calc__cover">
+            <div class="calc__cover-title">
+                Выберите сумму и срок кредита
+            </div>
+            <div class="calc__cover-inner">
+                <div class="calc__content-left">
+                    <div class="calc__block">
+                        <p class="calc__block__title">Желаемая сумма кредита</p>
+                        <input value="1 500 000" type="text" class="calc__field calc__field--1">
+                        <span class="calc__field__text">₽</span>
+                        <img src="./img/field-icon.svg" alt="field-icon" class="calc__field-icon">
+                        <div class="calc__range-box">
+                            <div class="calc__range">
+                                <div class="calc__range-min-val">100 000 ₽</div>
+                                <span class="calc__range__track calc__range__track--1">
+                                    </span>
+                                <input class="calc__range__input calc__range__input--1" type="range" min="100000" max="5000000" value="1500000" step="1">
+                                <div class="calc__range-max-val">5 000 000 ₽</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="calc__block calc__block">
+                        <p class="calc__block__title">Срок кредита</p>
+                        <input value="5" type="text" class="calc__field calc__field--2">
+                        <span class="calc__field__text calc__field__text--year">лет</span>
+                        <img src="./img/field-icon.svg" alt="field-icon" class="calc__field-icon calc__field-icon--2">
+                        <div class="calc__result-box">
+                            <p class="calc__result-text calc__result-text--pay">
+                                Ежемесячный платёж
+                            </p>
+                            <div class="calc__result-title calc__result-title--res">
+                                8 300 ₽
+                            </div>
+                        </div>
+                        <div class="calc__range-box calc__range-box--2">
+                            <div class="calc__range">
+                                <div class="calc__range-min-val">1 год</div>
+                                <span class="calc__range__track calc__range__track--2">
+                                    </span>
+                                <input class="calc__range__input calc__range__input--2" type="range" min="1" max="10" value="5" step="1">
+                                <div class="calc__range-max-val">10 лет</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="calc__block-input-group">
+                        <select class="calc__select" name="" id="">
+                            <option class="calc__select-option" value="">Цель кредита*</option>
+                            <option class="calc__select-option" value="">Cанкт-Петербург</option>
+                            <option class="calc__select-option" value="">Ленинградская область</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="calc__content-right">
+                    <div class="calc__content-item">
+                        <div class="calc__content-title">
+                            Вероятность одобрения кредита
+                        </div>
+                        <div class="calc__content-percent">
+                            5%
+                        </div>
+                        <div class="calc__content-progress">
+                            <div class="calc-progress">
+                                <div class="calc-progress__fill"></div>
+                            </div>
+                        </div>
+                        <div class="calc__content-text">
+                            +50% за 1-й шаг
+                        </div>
+                    </div>
+                    <div class="calc__content-block">
+                        <div class="calc__content-block-text">
+                            Вы выбрали кредит на сумму
+                        </div>
+                        <div class="calc__content-block-title calc__content-block-title--sum">
+                            550 000 ₽
+                        </div>
+                        <div class="calc__content-block-text">
+                            Срок кредита
+                        </div>
+                        <div class="calc__content-block-title calc__content-block-title--period">
+                            5  <span class="calc__content-block-title calc__content-block-title--year">лет</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="calc__cover-title calc__cover-title--middle">Контактная информация</div>
+            <div class="calc__cover-inputs">
+                <div class="calc__cover-input-group calc__cover-input-group--1">
+                    <input type="text" class="calc__cover-input calc__cover-input--1" placeholder="Фамилия, имя и отчество*">
+                    <div class="calc__input-rectangle">
+                        +20% к одобрению
+                    </div>
+                    <div class="calc__input-rectangle-mobile">
+                        +20%
+                    </div>
+                </div>
+                <div class="calc__cover-input-group">
+                    <input type="text" class="calc__cover-input" placeholder="Мобильный телефон*">
+                </div>
+            </div>
+            <button class="button calc__cover-button">
+                Подать заявку
+            </button>
+            <div class="calc__cover-reviews">
+                Заполняя форму, я принимаю <a href="#" class="calc__cover-reviews">условия передачи информации</a>
+            </div>
+        </div>
+    </div>
+</section>

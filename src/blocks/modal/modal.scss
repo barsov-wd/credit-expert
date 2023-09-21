@@ -1,0 +1,114 @@
+@import "../../scss/colors.scss";
+
+.modal {
+  position: fixed;
+  z-index: 199;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  overflow: auto;
+  background: rgba(45, 45, 45, 0.6);
+  backdrop-filter: blur(15px);
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.3s;
+
+  &--active {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  &__container {
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+
+    @media screen and (max-width: 1024px) {
+      padding: 20px 45px;
+    }
+    @media screen and (max-width: 769px) {
+      padding: 15px;
+      border-radius: 15px;
+    }
+  }
+
+  &-thanks__dialog {
+    max-width: 830px;
+    width: 100%;
+    margin: auto;
+    position: relative;
+    border-radius: 30px;
+    border: 1px solid #FFF;
+    background: #FFF;
+    box-shadow: 0px 0px 16px 0px rgba(45, 45, 45, 0.40);
+    padding-top: 176px;
+    box-sizing: border-box;
+    min-height: 490px;
+
+    @media screen and (max-width: 1100px) {
+      max-width: 664px;
+      padding-top: 134px;
+      min-height: 367px;
+    }
+    @media screen and (max-width: 769px) {
+      padding: 159px 15px 0 15px;
+      min-height: 394px;
+    }
+  }
+
+  &-thanks__close {
+    position: absolute;
+    top: 33px;
+    right: 29px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+
+    @media screen and (max-width: 1100px) {
+      top: 30px;
+      right: 27px;
+      width: 25px;
+      height: 25px;
+    }
+  }
+  &-thanks__title {
+    color: #159C4B;
+    text-align: center;
+    font-family: SourceSerifPro;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 120%;
+    margin-bottom: 15px;
+    @media screen and (max-width: 1100px) {
+      font-size: 35px;
+      margin-bottom: 10px;
+    }
+    @media screen and (max-width: 769px) {
+      font-size: 25px;
+    }
+  }
+  &-thanks__text {
+    color:#212121;
+    text-align: center;
+    font-size: 24px;
+    line-height: 120%;
+    max-width: 502px;
+    margin: 0 auto;
+    @media screen and (max-width: 1100px) {
+      font-size: 20px;
+      max-width: 328px;
+    }
+    @media screen and (max-width: 769px) {
+      font-size: 15px;
+      max-width: 246px;
+    }
+  }
+}

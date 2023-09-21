@@ -1,0 +1,121 @@
+@import "../../scss/colors.scss";
+
+.footer {
+  padding: 75px 0;
+  background: #fff;
+  @media screen and (max-width: 1600px) {
+    padding: 65px 0;
+  }
+  @media screen and (max-width: 1400px) {
+    padding: 55px 0;
+  }
+  @media screen and (max-width: 1200px) {
+    padding: 43px 30px;
+  }
+  @media screen and (max-width: 991px) {
+    padding: 37px 20px;
+  }
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @media screen and (max-width: 767px) {
+      flex-direction: column;
+      // justify-content: center;
+      // align-items: center;
+    }
+  }
+  &__content {
+    max-width: 777px;
+    text-align: center;
+    @media screen and (max-width: 1200px) {
+      max-width: 610px;
+    }
+    @media screen and (max-width: 1100px) {
+      text-align: right;
+    }
+    @media screen and (max-width: 991px) {
+      max-width: 420px;
+    }
+    @media screen and (max-width: 767px) {
+      text-align: center;
+    }
+  }
+  &__content-text {
+    font-size: 18px;
+    line-height: 140%;
+    color: #212121;
+    margin-bottom: 10px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+    @media screen and (max-width: 1400px) {
+      font-size: 16px;
+    }
+    @media screen and (max-width: 1100px) {
+      margin-bottom: 20px;
+    }
+    @media screen and (max-width: 991px) {
+      font-size: 15px;
+    }
+  }
+  &__worktime {
+    @media screen and (max-width: 1100px) {
+      display: none;
+    }
+  }
+  &__worktime-textbold {
+    color: #212121;
+    text-align: right;
+    font-family: Manrope;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 120%;
+    margin-bottom: 5px;
+    @media screen and (max-width: 1400px) {
+      font-size: 16px;
+    }
+    @media screen and (max-width: 1100px) {
+      text-align: left;
+    }
+    @media screen and (max-width: 767px) {
+      text-align: right;
+    }
+    @media screen and (max-width: 576px) {
+      font-size: 15px;
+    }
+  }
+  &__worktime-text {
+    font-size: 18px;
+    color: #212121;
+    @media screen and (max-width: 1400px) {
+      font-size: 16px;
+    }
+    @media screen and (max-width: 576px) {
+      font-size: 15px;
+    }
+  }
+  &__worktime-mobile {
+    display: none;
+    @media screen and (max-width: 1100px) {
+      display: block;
+    }
+  }
+  &__logo {
+    @media screen and (max-width: 1100px) {
+      margin-bottom: 30px;
+    }
+    @media screen and (max-width: 767px) {
+      margin-bottom: 0;
+    }
+  }
+  .wrap {
+    @media screen and (max-width: 767px) {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 35px;
+    }
+  }
+}
